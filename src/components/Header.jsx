@@ -2,11 +2,7 @@ export default function Header() {
   return (
     <header className=" py-6 border-b border-black bg-[#FFC017] ">
       <div className=" flex justify-between max-w-6xl mx-auto my-auto px-5 ">
-        <img
-          src="/src/images/logo.png"
-          alt=""
-          className=" h-6  object-contain "
-        />
+        <img src="/src/images/logo.png" alt="" className=" h-6" />
         <div>
           <ul className="flex items-center space-x-5">
             <li>
@@ -36,9 +32,9 @@ export default function Header() {
             <li>
               <a
                 href="/"
-                className=" text-sm  md:block lg:block  text-[#292929]   "
+                className=" text-sm md:block lg:block  text-[#292929]   "
               >
-                Sign in
+                Sign In
               </a>
             </li>
             <li>
